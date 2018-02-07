@@ -15,8 +15,18 @@
     "test.watch": "jest --watch --no-cache"
   },
   "dependencies": {
-    "@stencil/core": "0.2.3",
-    "@stencil/router": "latest"
+    "@stencil/core": "^0.3.0-5",
+    "@stencil/router": "latest",
+    "@feathersjs/feathers": "^3.1.0",
+    "@feathersjs/socketio-client": "^1.0.2",
+    "@stencil/redux": "0.0.3",
+    "@types/feathersjs__feathers": "^3.0.0",
+    "@types/feathersjs__socketio-client": "^1.0.0",
+    "feathers-redux": "^2.1.0",
+    "redux": "3.7.2",
+    "socket.io-client": "^2.0.4",
+    "bufferutil": "^3.0.3",
+    "utf-8-validate": "^4.0.0"
   },
   "devDependencies": {
     "@stencil/dev-server": "latest",
